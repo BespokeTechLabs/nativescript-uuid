@@ -1,6 +1,6 @@
 {
   "name": "nativescript-uuid-v2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A NativeScript plugin that allows you to get a UUID (Universal Unique Identifier) for a device - fixing nativescript/core call.",
   "main": "index.js",
   "type": "index.d.ts",

@@ -1,9 +1,4 @@
-var device;
-try {
-    device = require("@nativescript/core/platform").device;
-} catch (e) {
-    device = require('tns-core-modules/platform/platform').device;  
-}
+var device = require("@nativescript/core/platform").device;
 
 function getUUID() {
   return device ? device.uuid : "";
